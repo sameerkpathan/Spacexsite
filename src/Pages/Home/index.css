@@ -1,0 +1,113 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   
+}
+body{
+
+    background-color: rgb(233, 245, 241);
+    overflow-x: hidden;
+}
+
+.headerdiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: rgb(19, 18, 18);
+    text-align: center;
+}
+
+.navigation {
+   display: flex;
+   align-items: center;
+}
+.navigation li{
+    display: inline-block;
+    margin-right: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight:500;
+}
+
+.navigation li:hover{
+    border-bottom: 1px solid gray;
+}
+
+/* Logo*/
+
+.headerlogo{
+    height: 70px;
+    display: flex;
+    align-items: center;
+   padding: 5px;
+   border-bottom: 1px solid gray;
+}
+.headerlogo em{
+  font-style: italic;    
+}
+.headerlogo a{
+    text-decoration: none;
+    color: rgb(19, 18, 18);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 30px;
+}
+.headerlogo a:hover{
+    cursor: pointer;
+}
+.rocketimg{
+    padding: 7px;
+}
+
+/*Carosuel*/
+
+
+.carouselimg{
+    height: 500px;
+    width: 100%;
+}
+
+
+/* Footer */
+
+.Footer{
+    display: flex;
+    justify-content: center;
+    
+}
+.footerelm{
+    display: flex;
+   
+}
+.footerelm div{
+    padding: 5px;
+    color: rgb(19, 18, 18);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.footerelm a{
+    text-decoration: none;
+    color: rgb(19, 18, 18);
+}
+.footerelm a:hover{
+    cursor: pointer;
+    border-bottom: 1px solid gray ;
+}
+
+@media screen and (min-width: 450px){
+    /* .Capsuled{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+         background-color: rgb(209, 203, 203);
+        height: 900px;
+        width: 100%;
+    }
+    .capsuledata p h1{
+     font-size: 5px;
+    } */
+}
